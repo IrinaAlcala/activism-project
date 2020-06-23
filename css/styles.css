@@ -1,32 +1,44 @@
+
+
 body {
   font-family: Arial;
   padding: 10px;
   background: #f1f1f1;
 }
-.nav ul {
-  list-style: none;
-  background-color: #444;
-  text-align: center; 
+.header {
   padding: 10px;
-   margin: 0; 
-}
-.nav li {
-  font-family: 'Oswald', sans-serif;
-  font-size: 1.2em;
-  line-height: 40px;
-  height: 48px;
-  border-bottom: 1px solid #888;
-}
-.nav a {
-  text-decoration: none;
-  color: #fff;
-   display: inline-block;
-  transition: .3s background-color;
-}
-.nav a:hover {
-  background-color: #005f5f;
+  font-size: 35px;
+  height: 320px;
+  background-image: url(black-lives-matter-protest-cc.jpg);
+
+  margin: auto;
+  padding-top: 79px;
+
 }
 
+.blackLivesMatterHeader{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 88px;
+  background-color: #FFC368;
+  box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.25);
+  border-radius: 200px;
+  width: 970px;
+  text-align: center;
+  margin: auto;
+}
+
+.nav{
+  text-align: center;
+}
+
+.navbarlinks{
+  color: #FFFFFF;
+}
+
+<<<<<<< HEAD
 body {
   font-family: Arial;
   padding: 10px;
@@ -105,6 +117,38 @@ body {
 #boxed {
   border: 1px solid green ;
   border-radius: 25px;
+=======
+.navbubble{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19.0345px;
+  line-height: 23px;
+  display: inline-block;
+  background-color: black;
+  border-radius: 25px;
+  text-align: center;
+  margin: 0 20px;
+  padding: 2px 10px;
+
+}
+
+h2{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 44px;
+  color: #000000;
+  margin: 10px;
+
+}
+
+
+#boxedbills {
+  background-color: #C4C4C4;
+  border-radius: 20px;
+>>>>>>> a4983847a7da163baff15063f565a2a05085b243
   margin: 10px;
   padding: 10px;
 <<<<<<< HEAD
@@ -113,9 +157,36 @@ body {
 >>>>>>> d9e72df880f9d9f399019c7e83559f50949dc0b6
 }
 
+.backgroundGetInvolved{
+  background: #E9E9E9;
+  border-radius: 20px;
+  padding:20px;
+}
+
+.boxedGetInvolved{
+  background-color: #C4C4C4;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.donate{
+  background-color: #F4CC90;
+  border-radius: 30px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  text-align: center;
+  margin: auto;
+  height: 52px;
+
+}
 .first-column {
   width: 65%;
-  padding: 0 0 0 0;
+  padding: 10px;
   float: left;
 }
 
@@ -125,8 +196,8 @@ body {
 =======
 >>>>>>> d9e72df880f9d9f399019c7e83559f50949dc0b6
 .second-column {
-  width: 25%;
-  padding: 0 0 0 0;
+  width: 35%;
+  padding: 10px;
   float: right;
 }
 
@@ -159,4 +230,47 @@ body {
       float: none;
   }
 } 
+<<<<<<< HEAD
 >>>>>>> d9e72df880f9d9f399019c7e83559f50949dc0b6
+=======
+
+
+/* .nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center; 
+  padding: 10px;
+   margin: 0; 
+} */
+/* .nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 48px;
+  border-bottom: 1px solid #888;
+} */
+/* .nav a {
+  text-decoration: none;
+  color: #fff;
+   display: inline-block;
+  transition: .3s background-color;
+} */
+/* .nav a:hover {
+  background-color: #005f5f;
+} */
+
+/* @media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  } */
+  /* Option 1 - Display Inline
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+Header/Blog Title */
+>>>>>>> a4983847a7da163baff15063f565a2a05085b243
