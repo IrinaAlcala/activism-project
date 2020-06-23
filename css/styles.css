@@ -1,7 +1,12 @@
+
+#article1 {
+  display: none;
+}
+
 body {
     font-family: Arial;
     padding: 20px;
-    background: #f1f1f1;
+    background: yellow;
   }
   
   /* Header/Blog Title */
