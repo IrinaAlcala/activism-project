@@ -3,61 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
     <link rel="stylesheet" href="css/styles.css">
-
-
     <title>#BlackLivesMatter</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
+
 <body>
-  <div >
-    <a href="index.html" >Home</a>
-    <a href="topic1.html" >Topic 1</a>
-    <a href="topic2.html" >Topic 2</a>
-    <a href="topic3.html" >Topic 3</a>
-    <a href="topic4.html">Topic 4</a>
+  <div class="nav">
+    <ul>
+      <li class="home"><a href="index.html">Home</a></li> 
+      <li class="topic1"><a href="topic1.html">Topic 1</a></li>
+      <li class="topic2"><a href="topic2.html">Topic 2</a></li>
+      <li class="topic1"><a href="topic3.html">Topic 3</a></li>
+      <li class="topic1"><a href="topic4.html">Topic 4</a></li>
+    </ul>
   </div>
-    
-
-
+  
 <div class="header">
-    <h2>Blog Name</h2>
+    <h2>#BlackLivesMatter</h2>
   </div>
-  
-  <div class="row">
-    <div class="leftcolumn">
-      <div class="card">
-        <h2>TITLE HEADING</h2>
-
-        <h5>Title description, Dec 7, 2017</h5>
-        <div class="fakeimg" style="height:200px;">Image</div>
-        <p>Some text..</p>
-      </div>
-      <div class="card">
-        <h2>TITLE HEADING</h2>
-        <h5>Title description, Sep 2, 2017</h5>
-        <div class="fakeimg" style="height:200px;">Image</div>
-        <p>Some text..</p>
-      </div>
+      <div class="row">
+    <div class="first-column">
+      <div id="boxed">
+        <h3><a href="article1.html">Article 1</a></h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots">...</span><span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+        <button onclick="myFunction()" id="myBtn">Read more</button>
     </div>
-    <div class="rightcolumn">
-      <div class="card">
-        
-        
-      </div>
+    <div id="boxed">
+      <h3><a href="article2.html">Article 2</a></h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi unde consequuntur facilis sequi fugit ut totam ex voluptas, aspernatur beatae perferendis aperiam ipsam voluptates sit nihil soluta dolorum delectus harum.</p>
     </div>
+      <div id="boxed">
+        <h3><a href="article3.html">Article 3</a></h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum suscipit nulla nihil doloremque nemo nam voluptatem ut vel neque cum quam incidunt reiciendis nostrum, necessitatibus corrupti dolores, consequuntur placeat aut?</p>
+      </div> 
+      </div>
+      <div class="second-column">
+        <div class="row">
+        <h2>Get Involved</h2><br>
+        <h3>Contact</h3><br>
+        <h3>Petition</h3><br>
+        <h3>Demonstrations</h3><br>
+        <h3>Donate</h3>
+     </div> 
   </div>
-
-  <div id="article1">
-    <h1>Article 1</h1>
-  </div>
-  
-  <div class="footer">
-    <h2>Footer</h2>
-  </div>
-
+     <script src="index.js"></script>
   </body>
-  <script src="index.js"></script>
   </html>
