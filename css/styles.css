@@ -9,8 +9,8 @@ body {
   padding: 10px;
   font-size: 35px;
   height: 320px;
-  background-image: url(black-lives-matter-protest-cc.jpg);
-
+  background-image: url(https://imgur.com/M99hZIJ.jpg);
+  
   margin: auto;
   padding-top: 79px;
 
@@ -65,8 +65,23 @@ h2{
 }
 
 
-#boxedbills {
-  background-color: #C4C4C4;
+#boxedbill1 {
+  background-image: url(https://imgur.com/TVJhW0f.png);
+  /* background-color: #C4C4C4; */
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+}
+#boxedbill2 {
+  
+  background-color: #C4C4C4; 
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+}
+#boxedbill3 {
+  
+  background-color: #C4C4C4; 
   border-radius: 20px;
   margin: 10px;
   padding: 10px;
@@ -126,41 +141,3 @@ h2{
 } 
 
 
-/* .nav ul {
-  list-style: none;
-  background-color: #444;
-  text-align: center; 
-  padding: 10px;
-   margin: 0; 
-} */
-/* .nav li {
-  font-family: 'Oswald', sans-serif;
-  font-size: 1.2em;
-  line-height: 40px;
-  height: 48px;
-  border-bottom: 1px solid #888;
-} */
-/* .nav a {
-  text-decoration: none;
-  color: #fff;
-   display: inline-block;
-  transition: .3s background-color;
-} */
-/* .nav a:hover {
-  background-color: #005f5f;
-} */
-
-/* @media screen and (min-width: 600px) {
-  .nav li {
-    width: 120px;
-    border-bottom: none;
-    height: 50px;
-    line-height: 50px;
-    font-size: 1.4em;
-  } */
-  /* Option 1 - Display Inline
-  .nav li {
-    display: inline-block;
-    margin-right: -4px;
-  }
-Header/Blog Title */
