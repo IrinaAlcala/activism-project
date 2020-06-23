@@ -1,52 +1,97 @@
+
+
 body {
   font-family: Arial;
   padding: 10px;
   background: #f1f1f1;
 }
-.nav ul {
+.header {
+  padding: 10px;
+  font-size: 35px;
+  height: 320px;
+  background-color: #D2D2D2;
+  margin: auto;
+  padding-top: 79px;
+
+}
+
+.blackLivesMatterHeader{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 88px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.25);
+  border-radius: 200px;
+  width: 970px;
+  text-align: center;
+  margin: auto;
+}
+
+.nav{
+  text-align: center;
+}
+
+.navbarlinks{
+  color: black;
+}
+
+.navbubble{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19.0345px;
+  line-height: 23px;
+  color: black;
+  display: inline-block;
+  background-color: white;
+  border-radius: 25px;
+  text-align: center;
+  margin: 0 20px;
+  padding: 0 10px;
+
+}
+
+/* .nav ul {
   list-style: none;
   background-color: #444;
   text-align: center; 
   padding: 10px;
    margin: 0; 
-}
-.nav li {
+} */
+/* .nav li {
   font-family: 'Oswald', sans-serif;
   font-size: 1.2em;
   line-height: 40px;
   height: 48px;
   border-bottom: 1px solid #888;
-}
-.nav a {
+} */
+/* .nav a {
   text-decoration: none;
   color: #fff;
    display: inline-block;
   transition: .3s background-color;
-}
-.nav a:hover {
+} */
+/* .nav a:hover {
   background-color: #005f5f;
-}
+} */
 
-@media screen and (min-width: 600px) {
+/* @media screen and (min-width: 600px) {
   .nav li {
     width: 120px;
     border-bottom: none;
     height: 50px;
     line-height: 50px;
     font-size: 1.4em;
-  }
-  /* Option 1 - Display Inline */
+  } */
+  /* Option 1 - Display Inline
   .nav li {
     display: inline-block;
     margin-right: -4px;
   }
-/* Header/Blog Title */
-.header {
-  padding: 10px;
-  font-size: 35px;
-  text-align: center;
-  background: white;
-}
+Header/Blog Title */
+
 #boxed {
   border: 1px solid green ;
   border-radius: 25px;
