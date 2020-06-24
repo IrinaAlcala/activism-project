@@ -1,6 +1,8 @@
 body {
-  font-family: Arial;
+  font-family: Montserrat;
   background: #f1f1f1;
+  font-size: 16px;
+
 }
 
 .header {
@@ -65,7 +67,7 @@ h2{
   font-size: 36px;
   line-height: 44px;
   color: #000000;
-  margin:62px 10px 27px 10px;
+  margin:32px 10px 27px 10px;
 
 }
 
@@ -130,8 +132,8 @@ h2{
 .billMoreInfo{
   font-family: Montserrat;
   font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
+  font-weight: 900;
+  font-size: 22px;
   line-height: 24px;
   letter-spacing: 0.01em;
   color: #FFFFFF;
@@ -154,6 +156,7 @@ h2{
   margin: 20px;
   padding: 10px;
   align-items: center;
+  height: 80px;
 }
 
 
@@ -204,6 +207,7 @@ h2{
   }
 } 
 
+
 /* Individual bill page */
 #boxedbills {
   background-color:#e5e5e5;
@@ -211,6 +215,11 @@ h2{
   margin: 30px 10px;
   padding: 18px;
   background-size: cover;
+}
+
+b {
+  font-size: 20px;
+  font-weight: 600;
 }
 
 #myBtn{
@@ -250,45 +259,72 @@ h2{
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 23px;
   color: #000000;
 }
 
-/* .nav ul {
-  list-style: none;
-  background-color: #444;
-  text-align: center; 
-  padding: 10px;
-   margin: 0; 
-} */
-/* .nav li {
-  font-family: 'Oswald', sans-serif;
-  font-size: 1.2em;
-  line-height: 40px;
-  height: 48px;
-  border-bottom: 1px solid #888;
-} */
-/* .nav a {
-  text-decoration: none;
-  color: #fff;
-   display: inline-block;
-  transition: .3s background-color;
-} */
-/* .nav a:hover {
-  background-color: #005f5f;
-} */
 
-/* @media screen and (min-width: 600px) {
-  .nav li {
-    width: 120px;
-    border-bottom: none;
-    height: 50px;
-    line-height: 50px;
-    font-size: 1.4em;
-  } */
-  /* Option 1 - Display Inline
-  .nav li {
-    display: inline-block;
-    margin-right: -4px;
-  }
-Header/Blog Title */
+footer{
+  height: 376px;
+  background-color: #FFF8ED;
+  margin: auto;
+  padding-top: 79px;
+  display:inline-block;
+  width:100%;
+  display: inline-block;
+  text-align: center;
+ 
+  bottom: 0;
+  
+}
+
+.footerTitle{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  color: #2D2D2D;
+  margin: 0 30px;
+}
+
+
+
+
+.footerClickable{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2D2D2D;
+  margin: 0 20px;
+}
+
+.socialIcons{
+  margin: 38px 43px;
+  height: 50px;
+  width: 50px;
+  
+}
+
+.footerNav{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+
+.footerTitleDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 67px;
+}
+
+.line{
+  height:100%;
+  margin: auto 0;
+  
+}
