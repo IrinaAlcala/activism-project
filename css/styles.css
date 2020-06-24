@@ -2,19 +2,26 @@
 
 body {
   font-family: Arial;
-  padding: 10px;
   background: #f1f1f1;
 }
 .header {
   padding: 10px;
   font-size: 35px;
   height: 320px;
-  background-image: url(black-lives-matter-protest-cc.jpg);
+  background-image: url(https://imgur.com/NHQHHXI.png);
+  background-image: no-repeat center center fixed;
+  background-size: cover;
 
   margin: auto;
   padding-top: 79px;
+  display:inline-block;
+  width:100%;
+
+
 
 }
+
+
 
 .blackLivesMatterHeader{
   font-family: Montserrat;
@@ -22,7 +29,7 @@ body {
   font-weight: 600;
   font-size: 60px;
   line-height: 88px;
-  background-color: #FFC368;
+  color: #FFFFFF;
   box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.25);
   border-radius: 200px;
   width: 970px;
@@ -60,45 +67,66 @@ h2{
   font-size: 36px;
   line-height: 44px;
   color: #000000;
-  margin: 10px;
+  margin:62px 10px 27px 10px;
 
 }
-#boxedbills1 {
-  background-color:grey;
-  height: 174px;
+
+#boxedbills {
+  background-color:#e5e5e5;
   border-radius: 20px;
   margin: 10px;
-  padding: 10px;
+  padding: 18px;
   background-size: cover;
 }
 
+#myBtn{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  float: right;
+}
+
 #boxedbills1 {
-  background-image: url(https://i.imgur.com/bHnjJLu.png);
+  background-image: url(https://imgur.com/rObfGD9.png);
   height: 174px;
   border-radius: 20px;
-  margin: 10px;
+  margin: 30px 10px;
   padding: 10px;
+  background-image: no-repeat center center fixed;
   background-size: cover;
 }
 
 #boxedbills2 {
-  background-image: url(https://i.imgur.com/bHnjJLu.png);
+  background-image: url(https://imgur.com/CYd64Pk.png);
   height: 174px;
   border-radius: 20px;
-  margin: 10px;
+  margin: 30px 10px;
   padding: 10px;
+  background-image: no-repeat center center fixed;
   background-size: cover;
 }
 
 #boxedbills3 {
-  background-image: url(https://i.imgur.com/bHnjJLu.png);
+  background-image: url(https://imgur.com/LttlYZR.png);
   height: 174px;
   border-radius: 20px;
-  margin: 10px;
+  margin: 30px 10px;
   padding: 10px;
+  background-image: no-repeat center center fixed;
   background-size: cover;
 }
 
+#boxedbills4 {
+  background-image: url(https://i.imgur.com/bHnjJLu.png);
+  height: 174px;
+  border-radius: 20px;
+  margin: 30px 10px;
+  padding: 10px;
+  background-image: no-repeat center center fixed;
+  background-size: cover;
+ 
+}
 
 .billHashTags{
   font-family: Montserrat;
@@ -127,19 +155,33 @@ h2{
 }
 
 .billLink{
-  padding-top:98px;
+  padding-top:105px;
 }
 .backgroundGetInvolved{
-  background: #E9E9E9;
+  background: #FFF4E4;
   border-radius: 20px;
   padding:20px;
 }
 
 .boxedGetInvolved{
-  background-color: #C4C4C4;
+  display: flex;
+  background-color: #F4CC90;
   border-radius: 20px;
-  margin: 10px;
+  margin: 20px;
   padding: 10px;
+}
+
+
+.icon{
+  width:50px;
+  height: 50px;
+  
+}
+
+
+
+.getInvolvedBoxes{
+  text-decoration: none;
 }
 
 .donate{
@@ -158,14 +200,15 @@ h2{
 }
 .first-column {
   width: 65%;
-  padding: 10px;
+  padding: 10px 60px 10px 100px;
   float: left;
+  
 }
 
 #more {display: none;}
 .second-column {
   width: 35%;
-  padding: 15px;
+  padding: 10px 90px 10px 10px;
   float: right;
 }
 
