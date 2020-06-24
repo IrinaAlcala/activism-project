@@ -1,28 +1,33 @@
-
-
 body {
   font-family: Arial;
-  padding: 10px;
   background: #f1f1f1;
 }
+
 .header {
   padding: 10px;
   font-size: 35px;
   height: 320px;
-  background-image: url(https://imgur.com/M99hZIJ.jpg);
-  
+  background-image: url(https://imgur.com/NHQHHXI.png);
+  background-image: no-repeat center center fixed;
+  background-size: cover;
   margin: auto;
   padding-top: 79px;
+  display:inline-block;
+  width:100%;
+}
 
+.BLMTitle{
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 .blackLivesMatterHeader{
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 72px;
+  font-size: 60px;
   line-height: 88px;
-  background-color: #FFC368;
+  color: #FFFFFF;
   box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.25);
   border-radius: 200px;
   width: 970px;
@@ -60,77 +65,136 @@ h2{
   font-size: 36px;
   line-height: 44px;
   color: #000000;
-  margin: 10px;
+  margin:62px 10px 27px 10px;
 
 }
 
 
-#boxedbill1 {
-  background-image: url(https://imgur.com/TVJhW0f.png);
-  /* background-color: #C4C4C4; */
+
+#boxedbills1 {
+  background-image: url(https://imgur.com/rObfGD9.png);
+  height: 174px;
   border-radius: 20px;
-  margin: 10px;
+  margin: 30px 10px;
   padding: 10px;
+  background-image: no-repeat center center fixed;
+  background-size: cover;
 }
-#boxedbill2 {
+
+#boxedbills2 {
+  background-image: url(https://imgur.com/CYd64Pk.png);
+  height: 174px;
+  border-radius: 20px;
+  margin: 30px 10px;
+  padding: 10px;
+  background-image: no-repeat center center fixed;
+  background-size: cover;
+}
+
+#boxedbills3 {
+  background-image: url(https://imgur.com/LttlYZR.png);
+  height: 174px;
+  border-radius: 20px;
+  margin: 30px 10px;
+  padding: 10px;
+  background-image: no-repeat center center fixed;
+  background-size: cover;
+}
+
+#boxedbills4 {
+  background-image: url(https://i.imgur.com/bHnjJLu.png);
+  height: 174px;
+  border-radius: 20px;
+  margin: 30px 10px;
+  padding: 10px;
+  background-image: no-repeat center center fixed;
+  background-size: cover;
+ 
+}
+
+.billHashTags{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  float: right;
+  color:white;
+  background-color: black;
+  border-radius: 25px;
+  text-align: center;
+  margin: 0 20px;
+  padding: 2px 10px;
+}
+
+.billMoreInfo{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
   
-  background-color: #C4C4C4; 
-  border-radius: 20px;
-  margin: 10px;
-  padding: 10px;
-}
-#boxedbill3 {
-  
-  background-color: #C4C4C4; 
-  border-radius: 20px;
-  margin: 10px;
-  padding: 10px;
 }
 
+.billLink{
+  padding-top:105px;
+}
 .backgroundGetInvolved{
-  background: #E9E9E9;
+  background: #FFF4E4;
   border-radius: 20px;
   padding:20px;
 }
 
 .boxedGetInvolved{
-  background-color: #C4C4C4;
+  display: flex;
+  background-color: #F4CC90;
   border-radius: 20px;
-  margin: 10px;
+  margin: 20px;
   padding: 10px;
+  align-items: center;
 }
 
-.donate{
-  background-color: #F4CC90;
-  border-radius: 30px;
+
+.getInvolvedText{
   font-family: Montserrat;
   font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 29px;
-  color: #000000;
-  text-align: center;
-  margin: auto;
-  height: 52px;
-
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  
 }
+
+.getInvolvedBoxes{
+  text-decoration: none;
+  
+}
+
+.icon{
+  width:40px;
+  height: 40px;
+}
+
+
 .first-column {
   width: 65%;
-  padding: 10px;
+  padding: 10px 60px 10px 100px;
   float: left;
+  
 }
 
 #more {display: none;}
 .second-column {
   width: 35%;
-  padding: 10px;
+  padding: 10px 90px 10px 10px;
   float: right;
 }
 
 @media only screen and (max-width: 800px) {
  .first-column {
       width: 100%;
-      padding-bottom: 10px;
+      padding-bottom: px;
       float: none;
   }
   .second-column {
@@ -140,4 +204,91 @@ h2{
   }
 } 
 
+/* Individual bill page */
+#boxedbills {
+  background-color:#e5e5e5;
+  border-radius: 20px;
+  margin: 30px 10px;
+  padding: 18px;
+  background-size: cover;
+}
 
+#myBtn{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  float: right;
+  margin-top: 17px;
+}
+
+
+.billHeaders{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  color: #000000;
+  padding-left:10px;
+}
+
+.billSubTopic{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 27px;
+  
+  color: #000000;
+  margin: 0;
+}
+
+
+.billBodyText{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+/* .nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center; 
+  padding: 10px;
+   margin: 0; 
+} */
+/* .nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 48px;
+  border-bottom: 1px solid #888;
+} */
+/* .nav a {
+  text-decoration: none;
+  color: #fff;
+   display: inline-block;
+  transition: .3s background-color;
+} */
+/* .nav a:hover {
+  background-color: #005f5f;
+} */
+
+/* @media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  } */
+  /* Option 1 - Display Inline
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+Header/Blog Title */
