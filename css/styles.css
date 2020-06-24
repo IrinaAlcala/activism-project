@@ -71,21 +71,7 @@ h2{
 
 }
 
-#boxedbills {
-  background-color:#e5e5e5;
-  border-radius: 20px;
-  margin: 10px;
-  padding: 18px;
-  background-size: cover;
-}
 
-#myBtn{
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 13px;
-  float: right;
-}
 
 #boxedbills1 {
   background-image: url(https://imgur.com/rObfGD9.png);
@@ -226,32 +212,51 @@ h2{
 } 
 
 /* Individual bill page */
-.billSubTopic{
+#boxedbills {
+  background-color:#e5e5e5;
+  border-radius: 20px;
+  margin: 30px 10px;
+  padding: 18px;
+  background-size: cover;
+}
+
+#myBtn{
   font-family: Montserrat;
   font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
-  line-height: 44px;
-  
-  color: #000000;
+  font-weight: bold;
+  font-size: 13px;
+  float: right;
+  margin-top: 17px;
 }
 
 .billHeaders{
   font-family: Montserrat;
   font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
-  line-height: 44px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
   color: #000000;
+  padding-left:10px;
 }
+
+.billSubTopic{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 27px;
+  
+  color: #000000;
+  margin: 0;
+}
+
 
 .billBodyText{
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
-  line-height: 15px;
-
+  font-size: 16px;
+  line-height: 20px;
   color: #000000;
 }
 
