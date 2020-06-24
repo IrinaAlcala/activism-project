@@ -1,9 +1,8 @@
-
-
 body {
   font-family: Arial;
   background: #f1f1f1;
 }
+
 .header {
   padding: 10px;
   font-size: 35px;
@@ -11,17 +10,16 @@ body {
   background-image: url(https://imgur.com/NHQHHXI.png);
   background-image: no-repeat center center fixed;
   background-size: cover;
-
   margin: auto;
   padding-top: 79px;
   display:inline-block;
   width:100%;
-
-
-
 }
 
-
+.BLMTitle{
+  text-decoration: none;
+  color: #FFFFFF;
+}
 
 .blackLivesMatterHeader{
   font-family: Montserrat;
@@ -155,35 +153,31 @@ h2{
   border-radius: 20px;
   margin: 20px;
   padding: 10px;
+  align-items: center;
+  height: 80px;
 }
 
 
-.icon{
-  width:50px;
-  height: 50px;
+.getInvolvedText{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
   
 }
 
-
-
 .getInvolvedBoxes{
   text-decoration: none;
+  
 }
 
-.donate{
-  background-color: #F4CC90;
-  border-radius: 30px;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 29px;
-  color: #000000;
-  text-align: center;
-  margin: auto;
-  height: 52px;
-
+.icon{
+  width:40px;
+  height: 40px;
 }
+
+
 .first-column {
   width: 65%;
   padding: 10px 60px 10px 100px;
@@ -228,6 +222,7 @@ h2{
   float: right;
   margin-top: 17px;
 }
+
 
 .billHeaders{
   font-family: Montserrat;

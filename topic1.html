@@ -3,21 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <title></title>
+    <title>#BLACKLIVESMATTER</title>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
+
 <body>
+  <div class="header">
 
-  <div class="nav">
-    <ul>
-      <li class="home"><a href="index.html">Home</a></li>
-      <li class="topic1"><a href="topic1.html">Topic 1</a></li>
-      <li class="topic2"><a href="topic2.html">Topic 2</a></li>
-      <li class="topic1"><a href="topic3.html">Topic 3</a></li>
-      <li class="topic1"><a href="topic4.html">Topic 4</a></li>
-      
-    </ul>
+    <h2 class="blackLivesMatterHeader">
+      <a href="index.html" class="BLMTitle">#BLACKLIVESMATTER</a>
+    </h2>
+
+      <div class="nav">
+        <ul>
+          <li class="topic1 navbubble"><a class="navbarlinks" href="topic1.html">#DEFUNDTHEPOLICE</a></li>
+          <li class="topic2 navbubble"><a class="navbarlinks" href="topic2.html">#BLACKTRANSLIVESMATTER</a></li>
+          <li class="topic3 navbubble"><a class="navbarlinks" href="topic3.html">#BLACKIMMIGRATION</a></li>
+        </ul>
+      </div>
   </div>
+  
+  <div class="row">
+    <div class="first-column">
+      <h2>Latest Bills</h2>
 
-  <h1>Topic 1</h1>
+      <div id="boxedbills1">
+        <div class="billHashTags">
+          #DEFUNDTHEPOLICE
+        </div>
+        <div class="billLink">
+          <a href="article1.html" class="billMoreInfo">Emmett Till Anti-lynching Bill </a>
+        </div>
+      </div>
+
+      <div id="boxedbills3">
+        <div class="billHashTags">
+          #DEFUNDTHEPOLICE
+        </div>
+        <div class="billLink">
+          <a href="article3.html" class="billMoreInfo">The Violent Crime Control and Law Enforcement Act</a>
+        </div>
+      </div> 
+
+    </div>
+
+    <div class="second-column">
+      <h2>Get Involved</h2>
+      <div class="backgroundGetInvolved">
+
+        <div class="row">
+          <div class="boxedGetInvolved" onclick="location.href='https://google.com'">
+            &nbsp;&nbsp;
+            <img class="icons" src="https://imgur.com/gvGM6Lj.png" alt="Contact local representatives">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h5 class="getInvolvedText">Contact local <br/>representatives</h5>
+          </div>
+  
+          <div class="boxedGetInvolved" onclick="location.href='https://google.com'">
+            &nbsp;&nbsp;
+            <img class="icons" src="https://imgur.com/SGsWpbK.png" alt="Sign petitions"> 
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <p class="getInvolvedText">Sign petitions<br/></p>        
+          </div>
+  
+          <div class="boxedGetInvolved" onclick="location.href='https://google.com'">
+            &nbsp;&nbsp;
+            <img class="icons" src="https://imgur.com/HIHyTdO.png" alt="Attend a protest near you">
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <p class="getInvolvedText">Attend a protest near <br/>you</p>
+          </div>
+  
+    
+          <div class="boxedGetInvolved" onclick="location.href='https://google.com'">
+            &nbsp;&nbsp;
+            <img class="icons" src="https://imgur.com/aZxv8Vx.png" alt="Donate to organizations">
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <p class="getInvolvedText">Donate to <br/>organizations</p>
+          </div>
+        </div> 
+      </div>
+    </div>
+     <script src="index.js"></script>
+  </body>
+  </html>
