@@ -96,7 +96,6 @@ h2{
 #boxedbills3 {
   background-image: url(https://imgur.com/LttlYZR.png);
   height: 174px;
-
   border-radius: 20px;
   margin: 30px 10px;
   padding: 10px;
@@ -107,12 +106,13 @@ h2{
 #boxedbills4 {
   background-image: url(https://i.imgur.com/bHnjJLu.png);
   height: 174px;
-  
   border-radius: 20px;
   margin: 30px 10px;
   padding: 10px;
   background-image: no-repeat center center fixed;
   background-size: cover;
+ 
+}
 
 .billHashTags{
   font-family: Montserrat;
@@ -169,18 +169,10 @@ h2{
   
 }
 
-
 .getInvolvedBoxes{
   text-decoration: none;
   
 }
-
-
-.getInvolvedBoxes{
-  text-decoration: none;
-  
-}
-
 
 .icon{
   width:40px;
@@ -335,3 +327,4 @@ footer{
   height:100%;
   margin: auto 0;
   
+}
